@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "_Layout";
+
+}
+@model Product
+
+    
+
+<form style="background-color: #212529; padding: 10px; color: white;" action="/Product/Create" method="post">
+    <header>
+        <h3>Add Products</h3>
+    </header>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="name" value="@Model.name" class="form-control"/>
+        <span asp-validation-for="name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Price" class="form-label">Price</label>
+        <input asp-for="price" value="@Model.price" class="form-control"/>
+        <span asp-validation-for="price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Description" class="form-label">Description</label>
+        <textarea asp-for="description" value="@Model.description" class="form-control"> </textarea>
+        <span asp-validation-for="description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ImageUrl" class="form-label">ImageUrl</label>
+        <input asp-for="ImageUrl" value="@Model.ImageUrl" class="form-control"/> 
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+    @*<div class="form-group">
+        <label for="CategoryId" class="form-label">CategoryId</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+            <option selected disabled>Kategori Seçiniz</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>*@
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

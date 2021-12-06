@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model ProductListViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-3">
+            @await Component.InvokeAsync("Categories")
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                @foreach (var product in Model.Products)
+                {
+                    <div class="col-md-4">
+                        @await Html.PartialAsync("_product", product)
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<div class="col-md-4">
+    @*@await Component.InvokeAsync("Categories", false)*@
+</div>
+</html>

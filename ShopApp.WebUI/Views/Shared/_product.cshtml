@@ -1,0 +1,30 @@
+﻿@model Product
+
+<div class="card mb-2">
+    <img class="card-img-top" src="~/images/@Model.ImageUrl" />
+    <div class="card-body">
+        <h5 class="card-title">@Model.name</h5>
+        @*<p class="card-text">@Model.description</p>*@
+
+        <small class="text-muted">
+            <i class="fas fa-lira-sign"></i>@Model.price
+        </small>
+
+        <div class="card-footer text-center">
+
+            <a asp-controller="shop" asp-action="Details" asp-route-id="@Model.ProductId" class="btn btn-primary btn-sm">Details</a>
+            <a asp-controller="shop" asp-action="Details" asp-route-id="@Model.ProductId" class="btn btn-primary btn-sm">Add to Cart</a>
+
+        </div>
+
+
+        @*  EDİT BUTONU  *@
+        @*<a href="~/Product/Edit/@Model.ProductId" class="btn btn-primary btn-sm">Edit</a>*@
+
+        @*  DELETE BUTONU  *@
+        @*<form method="post" action="~/product/delete" style="display:inline;">
+                <input type="hidden" name="ProductId" value="@Model.ProductId" />
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+            </form>*@
+    </div>
+</div>

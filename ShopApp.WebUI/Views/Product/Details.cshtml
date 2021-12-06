@@ -1,0 +1,23 @@
+﻿@model Product
+
+
+@{
+    Layout = "_Layout";
+}
+<div class="col-md-8">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-2">
+                <img class="card-img-top" src="~/images/@Model.ImageUrl" />
+                <div class="card-body">
+
+                    <h5 class="card-title">@Model.name</h5>
+                    <p class="card-text">@Model.description</p>
+                    <p class="card-text">
+                        <small class="text-muted">3 days ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

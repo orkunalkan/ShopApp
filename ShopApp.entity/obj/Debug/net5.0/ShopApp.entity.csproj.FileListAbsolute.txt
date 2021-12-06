@@ -1,0 +1,12 @@
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\bin\Debug\net5.0\ShopApp.entity.deps.json
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\bin\Debug\net5.0\ShopApp.entity.dll
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\bin\Debug\net5.0\ref\ShopApp.entity.dll
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\bin\Debug\net5.0\ShopApp.entity.pdb
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.csproj.AssemblyReference.cache
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.AssemblyInfoInputs.cache
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.AssemblyInfo.cs
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.csproj.CoreCompileInputs.cache
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.dll
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ref\ShopApp.entity.dll
+C:\Users\orkuna\source\repos\ShopApp\ShopApp.entity\obj\Debug\net5.0\ShopApp.entity.pdb
